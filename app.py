@@ -1,4 +1,4 @@
-import os 
+
 
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -6,9 +6,8 @@ from streamlit_option_menu import option_menu
 
 
 
-os.environ['OPENAI_API_KEY'] = apikey 
 
-st.title('sample youtube title')
+st.title('some random title')
 prompt = st.text_input('Plug in your prompt')
 
 with st.sidebar:
