@@ -13,7 +13,7 @@ prompt = st.text_input('Plug in your prompt')
 with st.sidebar:
     selected  = option_menu(
         menu_title = "Main Menu",
-        options = ["Home","Projects","Contact"]
+        options = ["Login","Chatbot","Page 3"]
     )
 
 
