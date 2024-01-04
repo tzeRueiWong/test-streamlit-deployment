@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 
 
 
-st.title('some random title')
+st.title('Eczema generative AI')
 prompt = st.text_input('Plug in your prompt')
 
 with st.sidebar:
